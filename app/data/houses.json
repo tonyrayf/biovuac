@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 0,
+        "address" : "ш. Хатын-Юряхское 13 км.",
+        "image" : "/uploads/houses/komnata.jpg",
+        "price" : 13000
+    },
+    {
+        "id" : 1,
+        "address" : "ул. Железобетонная д. 37",
+        "image" : "/uploads/houses/jelezeboten.avif",
+        "price" : 21000
+    },
+    {
+        "id" : 2,
+        "address" : "ул. Нова Проспект п-52",
+        "image" : "/uploads/houses/kvartora.jpeg",
+        "price" : 17000
+    }
+]

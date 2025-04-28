@@ -1,0 +1,18 @@
+.title {
+    padding: 19px 40px;
+    font-weight: normal;
+    
+    box-sizing: border-box;
+
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: all 0.2s cubic-bezier(.4, 0, .2, 1);
+}
+
+.title:hover {
+    background-color: #d1d1d1;
+}

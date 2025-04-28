@@ -1,0 +1,66 @@
+.searchBar {
+    display: flex;
+    
+    padding: 55px 0px;
+    
+    font-size: 20px;
+    text-align: center;
+    
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    
+    border-radius: 8px;
+}
+
+.container {
+    background-color: #d9d9d9;
+    
+    position: absolute;
+    margin: -20px;
+    z-index: -200;
+    
+    width: 900px;
+    height: 90px;
+    
+    border-radius: 8px;
+}
+
+.inputWhere {
+    width: 130px;
+    padding: 10px 10px;
+
+    font-size: 17px;
+}
+
+.inputWhen {
+    padding: 10px 15px;
+
+    font-size: 17px;
+}
+
+
+.button {
+    background-color: #757575;
+    color: #ffffff;
+
+    padding: 10px 20px;
+    width: auto;
+    flex: 0 0 auto;
+
+    border: 1px solid transparent;
+    border-radius: .75rem;
+
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    
+    font-size: 20px;
+    text-align: center;
+    
+    transition: all 0.2s cubic-bezier(.4, 0, 0.2, 1);
+}
+
+.button:hover {
+    background-color: #646464;
+}
