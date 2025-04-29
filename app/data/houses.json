@@ -1,20 +1,74 @@
 [
     {
         "id" : 0,
-        "address" : "ш. Хатын-Юряхское 13 км.",
-        "image" : "/uploads/houses/komnata.jpg",
+        "location": "г. Якутск",
+        "address" : "Гостиница Эрмитаж",
+        "images" : ["/uploads/houses/komnata.jpg"],
+        "rating" : 4.6,
         "price" : 13000
     },
     {
         "id" : 1,
+        "location": "г. Якутск",
         "address" : "ул. Железобетонная д. 37",
-        "image" : "/uploads/houses/jelezeboten.avif",
+        "images" : ["/uploads/houses/jelezeboten.avif"],
+        "rating" : 4.1,
         "price" : 21000
     },
     {
         "id" : 2,
+        "location": "г. Якутск",
         "address" : "ул. Нова Проспект п-52",
-        "image" : "/uploads/houses/kvartora.jpeg",
+        "images" : ["/uploads/houses/kvartora.jpeg"],
+        "rating" : 3.2,
+        "price" : 17000
+    },
+    {
+        "id" : 3,
+        "location": "г. Якутск",
+        "address" : "",
+        "images" : ["/uploads/houses/kvartora.jpeg"],
+        "rating" : 3.2,
+        "price" : 17000
+    },
+    {
+        "id" : 4,
+        "location": "г. Якутск",
+        "address" : "ул. Нова Проспект п-52",
+        "images" : ["/uploads/houses/kvartora.jpeg"],
+        "rating" : 3.2,
+        "price" : 17000
+    },
+    {
+        "id" : 5,
+        "location": "г. Якутск",
+        "address" : "ул. Нова Проспект п-52",
+        "images" : ["/uploads/houses/kvartora.jpeg"],
+        "rating" : 3.2,
+        "price" : 17000
+    },
+    {
+        "id" : 6,
+        "location": "г. Якутск",
+        "address" : "ул. Нова Проспект п-52",
+        "images" : ["/uploads/houses/kvartora.jpeg"],
+        "rating" : 3.2,
+        "price" : 17000
+    },
+    {
+        "id" : 7,
+        "location": "г. Якутск",
+        "address" : "ул. Нова Проспект п-52",
+        "images" : ["/uploads/houses/kvartora.jpeg"],
+        "rating" : 3.2,
+        "price" : 17000
+    },
+    {
+        "id" : 8,
+        "location": "г. Якутск",
+        "address" : "ул. Нова Проспект п-52",
+        "images" : ["/uploads/houses/kvartora.jpeg"],
+        "rating" : 3.2,
         "price" : 17000
     }
 ]

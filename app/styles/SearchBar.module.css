@@ -2,7 +2,7 @@
     display: flex;
     
     padding: 55px 0px;
-    
+
     font-size: 20px;
     text-align: center;
     
@@ -63,4 +63,14 @@
 
 .button:hover {
     background-color: #646464;
+}
+
+
+.exitButton {
+    background: #757575;
+    width: 40px;
+    height: 40px;
+    
+    bottom: 100px;
+    left: 20px;
 }

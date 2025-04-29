@@ -8,3 +8,13 @@
 
     text-align: center;
 }
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 50px;
+}

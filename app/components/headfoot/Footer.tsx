@@ -7,8 +7,8 @@ export default function Footer() {
         <div className={styles.footer}>
             { /* Buttons */ }
             <div className={styles.buttons}>
-                <Button name='Про нас' />
-                <Button name='Контакты' />
+                <Button name='Про нас' url='/about' />
+                <Button name='Наши контакты' url='' />
             </div>
         </div>
     );

@@ -4,6 +4,7 @@
 import { useState } from 'react';
 import styles from '@/app/styles/SearchBar.module.css';
 import localFont from 'next/font/local';
+import BivouacMap from './BivouacMap';
 
 
 const font = localFont({ src : '../fonts/Manrope.ttf' });
@@ -12,10 +13,15 @@ const font = localFont({ src : '../fonts/Manrope.ttf' });
 export default function SearchBar() {
     const [location, setLocation]   = useState<string>('');
     const [date, setDate]           = useState<string>('');
-  
+    const [mapActive, setMap]       = useState(false);
+
     
     function handleSearch() {
         console.log(`Searching for ${location} on ${date}`);
+    };
+
+    function mapToggle() {
+        setMap(!mapActive);
     };
     
 
@@ -25,7 +31,7 @@ export default function SearchBar() {
 
 
              {/* Куда */}
-            <img src='/map.png' width='45px' height='45px' />
+            <img src='/map.png' width='45px' height='45px' className={styles.mapButton} />
             
             <div style={{margin: 'auto 0px'}}> Куда </div>
 
@@ -33,6 +39,7 @@ export default function SearchBar() {
                 type='text'
                 value={location}
                 onChange={(event) => setLocation(event.target.value)}
+                onClick={mapToggle}
                 className={styles.inputWhere}
             />
 
@@ -54,6 +61,18 @@ export default function SearchBar() {
             <button onClick={handleSearch} className={`${styles.button} ${font.className}`}>
                 Искать
             </button>
+
+
+            {/* Карта */}
+            {mapActive
+            ?
+                <div>
+                    <BivouacMap />
+                    <div className={styles.exitButton}>X</div>
+                </div>
+            :
+                <></>
+            }
         </div>
     );
-  };
+  }

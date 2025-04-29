@@ -1,4 +1,4 @@
-"use client"
+'use client';
 
 import styles from '@/app/styles/SignIn.module.css';
 import localFont from 'next/font/local';

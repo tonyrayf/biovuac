@@ -12,8 +12,8 @@ export default function Header() {
 
             { /* Buttons */ }
             <div className={styles.buttons}>
-                <Button name='Сдать' />
-                <Button name='Арендовать' />
+                <Button name='Сдать' url='' />
+                <Button name='Арендовать' url='' />
             </div>
 
 
